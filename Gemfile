@@ -27,6 +27,13 @@ gem 'execjs'
 group :production do
 	gem 'pg'
 end
+group :test do
+	gem 'capybara', '1.1.2'
+end
+ 
+ group :production do
+ 	gem 'rspec-rails'
+ end 
 
 
 # To use ActiveModel has_secure_password
