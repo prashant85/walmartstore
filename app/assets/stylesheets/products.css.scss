@@ -1,3 +1,37 @@
 // Place all the styles related to the Products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+/* Styles for main page */
+#banner {
+background: yellow;
+padding-top: 20px;
+padding-bottom: 20px;
+border-bottom: 4px solid;
+font: small-caps 40px/40px "Times New Roman", serif;
+color: #282;
+text-align: center;
+}
+#banner img {
+float: left;
+}
+#columns {
+background: #141;
+}
+#main {
+margin-left: 13em;
+padding-top: 4ex;
+padding-left: 2em;
+background: white;
+}
+#side {
+float: left;
+padding-top: 1em;
+padding-left: 1em;
+padding-bottom: 1em;
+width: 12em;
+background: darkgreen;
+}
+#side a {
+color: #bfb;
+font-size: small;
+}
